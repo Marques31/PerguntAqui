@@ -11,6 +11,7 @@ Criada com o objetivo de estudar node.js e demais ferramentas de desenvolvimento
     sequelize 
 
 Funcionalidades :
+
     Perguntar: OK
     Responder: OK
     Cadastrar: OK

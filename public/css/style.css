@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+body {
+    background-color: #eceff1;
+}
+
+#formulario-pergunta {
+    margin-top: 5vh;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.configDiv {
+    height: 600px;
+}
+
+.cadastroTitulo {
+    font-family: 'Rammetto One', cursive;
+    color: #0275d8;
+}
+
+.navBarTitulo {
+    font-family: 'Rammetto One', cursive;
+}
+
+.menu a:hover {
+    text-decoration: none;
+}
+
+.menu a {
+    font-weight: bold;
+}
+
+.news {
+    height: 600px;
+}
+
+.list-link a {
+    color: #0275d8 !important;
+}
+.menu-login h4 {
+    font-family: 'Rammetto One', cursive;
+}
+.menu-login {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-left: 1000px;
+    margin-top: 233px;
+    visibility: hidden;
+    border-radius: 3%;
+}
+
+#login:hover {
+    cursor: pointer;
+}

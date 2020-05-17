@@ -1,0 +1,35 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container d-flex justify-content-between">
+        <div>
+            <a href="/" class="navbar-brand navBarTitulo" >
+                <img width="40px" height="40px" src="/img/perguntAqui.png"> PerguntAqui
+            </a>
+        </div>
+        <div class='menu'>
+            <a href="/home" class="mr-2">Home</a>
+            <a href="/" class="mr-2">Perguntas</a>
+            <a href="/cadastro" class="mr-2">Cadastrar</a>
+            <a id="login" onclick="loginPanel()">Login</a>
+        </div>
+        <div id="menu-logon" class="login menu-login d-flex justify-content-center align-items-center flex-column">
+            <h4>Login</h4> <br>
+            <form action="/login" method="POST">
+                <label for="">Usuário:</label>
+                <input type="text" name="usuario" class="form-control" placeholder="Usuário">
+                <label for="">Senha:</label>
+                <input type="password" name="senha" class="form-control" placeholder="Senha"> <br>
+                <button type="submit" class="btn btn-success">Entrar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<script>
+    function loginPanel() {
+        let login = document.getElementById('menu-logon');
+        if(login.style.visibility === 'visible') 
+            login.style.visibility = 'hidden'
+        else
+            login.style.visibility = 'visible'
+    }
+</script>

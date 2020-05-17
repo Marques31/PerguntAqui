@@ -1,0 +1,21 @@
+<%- include ('partials/header.ejs') %>
+<body>
+    <%- include ('partials/navbar.ejs') %>
+
+    <div class="container d-flex flex-column justify-content-center align-items-center configDiv">
+        <img src="/img/perguntAqui.png" width="50px" height="50px">
+        <h4 class="cadastroTitulo mt-2">Cadastro perguntAqui</h4>
+        <form action="/cadastrar" method="POST">
+            <label for="">Usuário:</label>
+            <input type="text" name="usuario" placeholder="Nome de usuário" class="form-control"> <br>
+            <label for="">Senha:</label>
+            <input type="password" name="senha" placeholder="Digite sua senha" class="form-control">
+            <div class="d-flex justify-content-between mt-4">
+                <a href="/" class="btn btn-dark">Voltar</a>
+                <button type="submit" class="btn btn-success">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+<%- include ('partials/footer.ejs') %>
